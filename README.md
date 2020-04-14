@@ -7,3 +7,7 @@
 3. run `npm run serve`
 
 That's it! 
+
+## Testing
+`npm run serve`
+
