@@ -5,13 +5,13 @@
       </div>
       <ul>
         {% for node in collections.pages %}
-          {% if node.title != "ACM Design" %}
-            <li><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
+          {% if node.data.title != "ACM Design" %}
+            <li><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a></li>
           {% endif %}
-          {% if node.title == "Committees" %}
+          {% if node.data.title == "Committees" %}
             <ul class="navigation-committee">
               {% for committee in collections.committees %}
-                <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.title }}</a></li>
+                <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.data.title }}</a></li>
               {% endfor %}
             </ul>
           {% endif %}
@@ -23,26 +23,26 @@
       </div>
       <ul>
         {% for node in collections.pages %}
-          {% if node.title != "ACM Design" %}
+          {% if node.data.title != "ACM Design" %}
             {% if page.url contains node.url %}
-              <li><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
-              {% if node.title == "Committees" %}
+              <li><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.data.title }}</a></li>
+              {% if node.data.title == "Committees" %}
                 <ul class="navigation-committee">
                   {% for committee in collections.committees %}
                     {% if page.url == committee.url %}
-                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="active-{{ committee.title | downcase}}">{{ committee.title }}</a></li>
+                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="active-{{ committee.data.title | downcase}}">{{ committee.data.title }}</a></li>
                     {% else %}
-                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="not-active">{{ committee.title }}</a></li>
+                      <li><a href="{{ committee.url | prepend: site.baseurl }}" class="not-active">{{ committee.data.title }}</a></li>
                     {% endif %}
                   {% endfor %}
                 </ul>
               {% endif %}
             {% else %}
-              <li ><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
-              {% if node.title == "Committees" %}
+              <li ><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.data.title }}</a></li>
+              {% if node.data.title == "Committees" %}
                 <ul class="navigation-committee">
                   {% for committee in collections.committees %}
-                    <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.title }}</a></li>
+                    <li><a href="{{ committee.url | prepend: site.baseurl }}"  class="not-active">{{ committee.data.title }}</a></li>
                   {% endfor %}
                 </ul>
               {% endif %}
