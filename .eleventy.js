@@ -11,8 +11,12 @@ module.exports = function(eleventyConfig) {
         return collection.getFilteredByGlob('_committees/*.md');
     });
 
+    eleventyConfig.addCollection('pages', collection => {
+        return collection.getFilteredByGlob('_pages/*.md');
+    });
+
     eleventyConfig.setLiquidOptions({
-        dynamicPartials: false,
+        dynamicPartials: true,
         root: [
           '_includes',
           '.'
@@ -30,7 +34,7 @@ module.exports = function(eleventyConfig) {
             layouts: "_layouts"
         },
         htmlTemplateEngine: "liquid",
-        markdownTemplateEngine: "njk",
+        markdownTemplateEngine: "liquid",
         templateFormats: ["md", "html", "njk"]
     }
     

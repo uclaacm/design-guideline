@@ -4,7 +4,7 @@
         <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
       </div>
       <ul>
-        {% for node in site.pages %}
+        {% for node in collections.pages %}
           {% if node.title != "ACM Design" %}
             <li><a href="{{ node.url | prepend: site.baseurl }}" class="not-active">{{ node.title }}</a></li>
           {% endif %}
@@ -22,7 +22,7 @@
         <a href="{{ site.baseurl }}/"><h2><span>ACM</span> Design</h2></a>
       </div>
       <ul>
-        {% for node in site.pages %}
+        {% for node in collections.pages %}
           {% if node.title != "ACM Design" %}
             {% if page.url contains node.url %}
               <li><a href="{{ node.url | prepend: site.baseurl }}" class="active">{{ node.title }}</a></li>
