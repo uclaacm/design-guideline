@@ -1,4 +1,4 @@
-module.exports = function(eleventyConfig) {
+module.exports = function (eleventyConfig) {
 
     //Tell 11ty to search these directories for files
     eleventyConfig.addPassthroughCopy('css');
@@ -18,9 +18,13 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLiquidOptions({
         dynamicPartials: true,
         root: [
-          '_includes',
-          '.'
+            '_includes',
+            '.'
         ]
+    });
+
+    eleventyConfig.addFilter('jsonify', function (variable) {
+        return JSON.stringify(variable);
       });
 
     //Tell 11ty that all files 
@@ -34,8 +38,8 @@ module.exports = function(eleventyConfig) {
             layouts: "_layouts"
         },
         htmlTemplateEngine: "liquid",
-        markdownTemplateEngine: "njk",
+        markdownTemplateEngine: "liquid",
         templateFormats: ["md", "html", "njk"]
     }
-    
+
 }
