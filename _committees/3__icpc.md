@@ -2,7 +2,7 @@
 layout: group
 title: ICPC
 filename: icpc
-permalink: committees/icpc
+permalink: "committees/icpc/"
 tagline: Mastering Algorithms and Competitive Programming
 hex: FF6B6B
 ---

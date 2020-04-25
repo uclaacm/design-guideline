@@ -2,7 +2,7 @@
 layout: group
 title: Studio
 filename: studio
-permalink: committees/studio
+permalink: "committees/studio/"
 tagline: Creative Expression through Games and VR
 hex: ED3266
 ---

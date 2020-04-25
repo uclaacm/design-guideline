@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Committees
-permalink: /committees/
+permalink: "committees/"
 ---
 # Committees #
 The six committees that make up ACM—W, Hack, ICPC, AI, Studio, and NetSec—each focus on different topics inside the world of computer science and tech. In addition to having a unique logo and color palette, each committee has a tagline on what they do, and a visual motif that distinguishes them from the others.

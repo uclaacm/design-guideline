@@ -1,8 +1,9 @@
 ---
 layout: page
 title: ACM Design
-permalink: /
+permalink: "/"
 ---
+
 ![ACM Design Logo]({{ site.baseurl }}/assets/home/design-logo.png){: #logo}
 
 # Communicating Tech for People: UCLA ACM's Official Styleguide  #

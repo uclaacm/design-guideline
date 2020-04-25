@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Typography
-permalink: /typography
+permalink: "/typography/"
 ---
 # Typography #
 UCLA ACM uses three main typefaces: Poppins, Palanquin Dark, and Chivo. 

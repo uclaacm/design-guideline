@@ -2,7 +2,7 @@
 layout: group
 title: NetSec
 filename: netsec
-permalink: committees/netsec
+permalink: "committees/netsec/"
 tagline: Cybersecurity Made Simple
 hex: FFBA44
 ---

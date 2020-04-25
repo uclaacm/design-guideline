@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Colors
-permalink: /colors
+permalink: colors/
 ---
+
 # Colors #
 Each group in UCLA ACM has four colors: a primary color, a lighter and darker version of the primary color, and a secondary color. 
 
