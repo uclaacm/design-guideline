@@ -2,7 +2,7 @@
 layout: group
 title: AI
 filename: ai
-permalink: "committees/ai/"
+permalink: "/committees/ai/"
 tagline: Learning Machine Learning
 hex: 1EBDF4
 ---

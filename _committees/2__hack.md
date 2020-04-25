@@ -2,7 +2,7 @@
 layout: group
 title: Hack
 filename: hack
-permalink: "committees/hack/"
+permalink: "/committees/hack/"
 tagline: Move Fast, Build Things
 hex: C960FF
 ---
