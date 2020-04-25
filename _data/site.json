@@ -4,5 +4,7 @@
     "description": "UCLA ACM Design's site for publishing.",
     "url": "",
     "baseurl": "/Styleguide",
-    "og_locale": "en_US"
+    "og_locale": "en_US",
+    "twitter_username": "uclaacm",
+    "github_username": "uclaacm"
   }
