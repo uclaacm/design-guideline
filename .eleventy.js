@@ -3,7 +3,7 @@ module.exports = function (eleventyConfig) {
     //Tell 11ty to search these directories for files
     eleventyConfig.addPassthroughCopy('css');
     eleventyConfig.addPassthroughCopy('assets');
-    eleventyConfig.addPassthroughCopy('pages');
+    //eleventyConfig.addPassthroughCopy('pages');
     eleventyConfig.addPassthroughCopy('_includes');
 
     //Add collection for committees
@@ -22,6 +22,21 @@ module.exports = function (eleventyConfig) {
             '.'
         ]
     });
+
+    let md_it = require("markdown-it");
+    var md_attr = require("markdown-it-attrs");
+
+    let options = {
+        html:true, 
+        breaks: true,
+        linkify: true
+    };
+
+    let md_lib = md_it(options).use(md_attr);
+    eleventyConfig.setLibrary("md", md_lib);
+
+
+
 
     eleventyConfig.addFilter('jsonify', function (variable) {
         return JSON.stringify(variable);
