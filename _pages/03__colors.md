@@ -15,7 +15,7 @@ These are the main differentiating components between committees. They make up e
 {% include "colorswatch.html", name: "ICPC Tangerine", hex: "#FF6B6B", rgb: "(255, 107, 107)" %}
 {% include "colorswatch.html", name: "AI Arctic", hex: "#1EBDF4", rgb: "(30, 189, 244)" %}
 {% include "colorswatch.html", name: "Studio Raspberry", hex: "#ED3266", rgb: "(237, 50, 102)" %}
-{% include "colorswatch.html", name: "NetSec Amber", hex: "#FFBA44", rgb: "(255, 186, 68)" %}
+{% include "colorswatch.html", name: "Cyber Amber", hex: "#FFBA44", rgb: "(255, 186, 68)" %}
 
 ## Light Primary Colors ##
 Use these where you would like to have committee branding, without as much emphasis.
@@ -25,7 +25,7 @@ Use these where you would like to have committee branding, without as much empha
 {% include "colorswatch.html", name: "ICPC Tint", hex: "#EEAEAE", rgb: "(238, 174, 174)" %}
 {% include "colorswatch.html", name: "AI Tint", hex: "#94D8F0", rgb: "(148, 216, 240)" %}
 {% include "colorswatch.html", name: "Studio Tint", hex: "#F09FB0", rgb: "(240, 159, 176)" %}
-{% include "colorswatch.html", name: "NetSec Tint", hex: "#EDCD98", rgb: "(237, 205, 152)" %}
+{% include "colorswatch.html", name: "Cyber Tint", hex: "#EDCD98", rgb: "(237, 205, 152)" %}
 
 ## Dark Primary Colors ##
 Use these shades in situations where you would normally use black.
@@ -35,7 +35,7 @@ Use these shades in situations where you would normally use black.
 {% include "colorswatch.html", name: "ICPC Black", hex: "#3A2B2B", rgb: "(58, 43, 43)" %}
 {% include "colorswatch.html", name: "AI Black", hex: "#233339", rgb: "(35, 51, 57)" %}
 {% include "colorswatch.html", name: "Studio Black", hex: "#39272B", rgb: "(57, 39, 43)" %}
-{% include "colorswatch.html", name: "NetSec Black", hex: "#3A3327", rgb: "(58, 51, 39)" %}
+{% include "colorswatch.html", name: "Cyber Black", hex: "#3A3327", rgb: "(58, 51, 39)" %}
 
 ## Secondary Colors ##
 Each committee's secondary color is one of the other committee's primary color (ex. Hack's secondary is Studio's Raspberry). 
@@ -45,7 +45,7 @@ Each committee's secondary color is one of the other committee's primary color (
 {% include "colorswatch.html", name: "ICPC Secondary", hex: "#1BC3A9", rgb: "(27, 195, 169)" %}
 {% include "colorswatch.html", name: "AI Secondary", hex: "#C960FF", rgb: "(201, 96, 255)" %}
 {% include "colorswatch.html", name: "Studio Secondary", hex: "#FF6B6B", rgb: "(255, 107, 107)" %}
-{% include "colorswatch.html", name: "NetSec Secondary", hex: "#1EBDF4", rgb: "(30, 189, 244)" %}
+{% include "colorswatch.html", name: "Cyber Secondary", hex: "#1EBDF4", rgb: "(30, 189, 244)" %}
 
 ## Supplementary Colors ##
 These colors are always available to use, regardless of committee. When normally using pure black (#000000), opt for the black below instead.
