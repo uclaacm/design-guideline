@@ -23,7 +23,7 @@ Our logomark takes inspiration from ACM's official diamond-shaped logo. Each has
 {% include "assetbox.html", title: "ACM ICPC logomark", file: "logos/icpc-logo.png" %}
 {% include "assetbox.html", title: "ACM AI logomark", file: "logos/ai-logo.png" %}
 {% include "assetbox.html", title: "ACM Studio logomark", file: "logos/studio-logo.png" %}
-{% include "assetbox.html", title: "ACM NetSec logomark", file: "logos/netsec-logo.png" %}
+{% include "assetbox.html", title: "ACM Cyber logomark", file: "logos/cyber-logo.png" %}
 
 ### Suggested Usage for logomarks ###
 Use logomarks when you are limited in the space you're given to insert branding. (Ex: Laptop Sticker)
@@ -38,7 +38,7 @@ Use logomarks when you are limited in the space you're given to insert branding.
 {% include "assetbox.html", title: "ACM ICPC wordmark", file: "logos/icpc-wordmark-darkcolor.png" %}
 {% include "assetbox.html", title: "ACM AI wordmark", file: "logos/ai-wordmark-darkcolor.png" %}
 {% include "assetbox.html", title: "ACM Studio wordmark", file: "logos/studio-wordmark-darkcolor.png" %}
-{% include "assetbox.html", title: "ACM NetSec wordmark", file: "logos/netsec-wordmark-darkcolor.png" %}
+{% include "assetbox.html", title: "ACM Cyber wordmark", file: "logos/cyber-wordmark-darkcolor.png" %}
 
 
 ### Suggested Usage for wordmarks ###
