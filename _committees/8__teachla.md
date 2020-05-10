@@ -1,7 +1,7 @@
 ---
 layout: group
 title: TeachLA
-filename: teachLA
+filename: teachla
 permalink: "/committees/teachla/"
 tagline: Make Coding Accessible
 hex: A1D900
