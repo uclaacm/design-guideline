@@ -4,7 +4,7 @@ title: Committees
 permalink: "committees/"
 ---
 # Committees #
-The seven committees that make up ACM—W, Hack, ICPC, AI, Studio, Cyber, Design, and TeachLA—each focus on different topics inside the world of computer science and tech. In addition to having a unique logo and color palette, each committee has a tagline on what they do, and a visual motif that distinguishes them from the others.
+The eight committees that make up ACM—W, Hack, ICPC, AI, Studio, Cyber, Design, and TeachLA—each focus on different topics inside the world of computer science and tech. In addition to having a unique logo and color palette, each committee has a tagline on what they do, and a visual motif that distinguishes them from the others.
 
 {% for committee in collections.committees %}
 <div class="committee-container">
