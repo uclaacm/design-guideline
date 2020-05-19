@@ -31,6 +31,7 @@
         "title": "Hack",
         "filename": "hack",
         "tagline": "Move Fast, Build Things",
+        "hex": "C960FF",
         "colors": [
             {
                 "name": "Hack Purple",
@@ -58,6 +59,7 @@
         "title": "ICPC",
         "filename": "icpc",
         "tagline": "Mastering Algorithms and Competitive Programming",
+        "hex": "FF6B6B",
         "colors": [
             {
                 "name": "ICPC Tangerine",
@@ -85,6 +87,7 @@
         "title": "AI",
         "filename": "ai",
         "tagline": "Learning Machine Learning",
+        "hex": "1EBDF4",
         "colors": [
             {
                 "name": "AI Arctic",
@@ -112,6 +115,7 @@
         "title": "Studio",
         "filename": "studio",
         "tagline": "Creative Expression through Games and VR",
+        "hex": "ED3266",
         "colors": [
             {
                 "name": "Studio Raspberry",
@@ -139,6 +143,7 @@
         "title": "Cyber",
         "filename": "cyber",
         "tagline": "Cybersecurity Made Simple",
+        "hex": "FFBA44",
         "colors": [
             {
                 "name": "Cyber Amber",
@@ -166,26 +171,27 @@
         "title": "Design",
         "filename": "design",
         "tagline": "Form Follows Function",
+        "hex": "FE823C",
         "colors": [
             {
                 "name": "Design Amber",
-                "hex": "",
-                "rgb": ""
+                "hex": "#FE823C",
+                "rgb": "(254, 130, 60)"
             },
             {
                 "name": "Design Tint",
-                "hex": "",
-                "rgb": ""
+                "hex": "#FFBC96",
+                "rgb": "(255, 188, 150)"
             },
             {
                 "name": "Design Black",
-                "hex": "",
-                "rgb": ""
+                "hex": "#372B25",
+                "rgb": "(55, 43, 37)"
             },
             {
                 "name": "Design Secondary",
-                "hex": "",
-                "rgb": ""
+                "hex": "#A1D900",
+                "rgb": "(161, 217, 0)"
             }
         ]
     },
@@ -193,6 +199,7 @@
         "title": "TeachLA",
         "filename": "teachla",
         "tagline": "Make Coding Accessible",
+        "hex": "A1D900",
         "colors": [
             {
                 "name": "TeachLA Lime",

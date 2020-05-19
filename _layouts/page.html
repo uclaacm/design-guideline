@@ -3,6 +3,12 @@ title: Branding Guideline
 desc: "Official branding guideline for UCLA ACM and all of its committees"
 css_links: ['/css/master.css']
 ---
+
+{%- assign $title = title -%}
+{%- if renderData.title -%}
+  {%- assign $title = renderData.title -%}
+{%- endif -%}
+
 <!DOCTYPE HTML>
 <html>
 
