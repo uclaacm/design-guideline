@@ -9,6 +9,7 @@ layout: page.html
 renderData:
     title: "{{ committee.title }}"
 permalink:  "/committees/{{ committee.filename }}/"
+tags: 
 ---
 
 <div>
