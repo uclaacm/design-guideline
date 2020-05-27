@@ -35,9 +35,6 @@ module.exports = function (eleventyConfig) {
     let md_lib = md_it(options).use(md_attr);
     eleventyConfig.setLibrary("md", md_lib);
 
-
-
-
     eleventyConfig.addFilter('jsonify', function (variable) {
         return JSON.stringify(variable);
       });
