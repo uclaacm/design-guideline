@@ -1,5 +1,3 @@
-
-
 # Getting Started
 
 1. Clone this repository to your local machine
@@ -10,4 +8,3 @@ That's it!
 
 ## Testing
 `npm run serve`
-
