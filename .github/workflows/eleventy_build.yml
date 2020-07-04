@@ -1,5 +1,8 @@
 name: Eleventy Build
-on: [push]
+on: 
+    push:
+        branches: 
+            - master
 
 jobs:
     build_deploy:
@@ -12,7 +15,7 @@ jobs:
                 install_dependencies: true
             - name: Deploy 
               uses: peaceiris/actions-gh-pages@v1.1.0 
-              env:
-                publish_dir: docs
-                #publish_branch: dev 
+              with:
                 github_token: ${{ secrets.GITHUB_TOKEN }}
+                publish_branch: master 
+               
